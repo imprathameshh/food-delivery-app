@@ -1,0 +1,46 @@
+.header {
+  padding: 32px 0;
+  background: url("../../assets/header_img.png") no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 34vw;
+  border-radius: 8px;
+  .header-content {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+    max-width: 50%;
+    bottom: 10%;
+    left: 5%;
+    color: #fff;
+    animation: fadeIn 3s;
+    .theme-header {
+      font-weight: 500;
+      font-size: 40px;
+      line-height: 1.1;
+    }
+    .theme-text {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 1.1;
+    }
+    .theme-btn {
+      color: #747474;
+      background: #fff;
+      font-size: 16px;
+      border: 2px solid;
+      padding: 10px 30px;
+      border-radius: 24px;
+      cursor: pointer;
+      border: none;
+      transition: 0.3s all ease-in-out;
+      font-weight: 500;
+      &:hover {
+        color: #fff;
+        background: #49557e;
+      }
+    }
+  }
+}
